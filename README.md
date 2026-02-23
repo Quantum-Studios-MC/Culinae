@@ -1,4 +1,7 @@
-# Cuisine
+# Culinae
+
+### Fork of the Original Cuisine mod from Snownee by iristhepianist @ QuantumStudios
+### TEXTURES BELONG TO SNOWNEE!!!!! i hope thye dont put me in jail for forking the mod, its MIT, xd
 
 ### License
 
