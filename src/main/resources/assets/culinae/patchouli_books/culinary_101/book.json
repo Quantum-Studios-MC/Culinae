@@ -1,0 +1,16 @@
+{
+  "name": "culinae.manual.name",
+  "landing_text": "culinae.manual.subtitle",
+  "edition": -1,
+  "creative_tab": "Culinae",
+  "dont_generate_book": true,
+  "show_progress": false,
+  "custom_book_item": "culinae:manual",
+  "book_texture": "culinae:textures/gui/patchouli.png",
+  "advancement_namespaces": [
+    "Culinae"
+  ],
+  "macros": {
+    "$(em)": "$(#388e3c)"
+  }
+}

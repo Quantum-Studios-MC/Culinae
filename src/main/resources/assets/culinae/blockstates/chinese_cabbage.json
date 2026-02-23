@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": { "model": "culinae:chinese_cabbage_stage0" },
+    "age=1": { "model": "culinae:chinese_cabbage_stage0" },
+    "age=2": { "model": "culinae:chinese_cabbage_stage1" },
+    "age=3": { "model": "culinae:chinese_cabbage_stage1" },
+    "age=4": { "model": "culinae:chinese_cabbage_stage2" },
+    "age=5": { "model": "culinae:chinese_cabbage_stage2" },
+    "age=6": { "model": "culinae:chinese_cabbage_stage2" },
+    "age=7": { "model": "culinae:chinese_cabbage_stage3" }
+  }
+}

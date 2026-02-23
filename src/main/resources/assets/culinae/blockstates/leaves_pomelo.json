@@ -1,0 +1,14 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "culinae:leaves_pomelo"
+  },
+  "variants": {
+    "age": {
+      "0": {},
+      "1": {},
+      "2": { "submodel": "culinae:flowers", "textures": { "0": "culinae:block/flowers_pomelo" } },
+      "3": { "submodel": "culinae:fruit_lg" }
+    }
+  }
+}

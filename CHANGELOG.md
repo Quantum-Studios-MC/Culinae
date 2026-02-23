@@ -135,7 +135,7 @@
    - Add HWYLA support. Modelled after the existed TheOneProbe support.
    - Add Farming for Blockheads support. You may get Cuisine's bamboo shoots from that.
    - Add ToughAsNail support. Drinks may restore thirst value if TAN is present.
-   - Certain raw food and liquids from the following are now valid ingredients or seasonings in Cuisine:
+   - Certain raw food and liquids from the following are now valid ingredients or seasonings in Culinae:
      - Biomes O' Plenty
      - Pam's HarvestCraft
      - PizzaCraft

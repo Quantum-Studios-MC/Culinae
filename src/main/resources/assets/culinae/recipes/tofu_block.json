@@ -1,0 +1,16 @@
+{
+  "type": "forge:ore_shaped",
+  "result": {
+    "item": "culinae:tofu_block"
+  },
+  "pattern": [
+    "tt",
+    "tt"
+  ],
+  "key": {
+    "t": {
+      "ore": "foodFirmtofu",
+      "type": "forge:ore_dict"
+    }
+  }
+}

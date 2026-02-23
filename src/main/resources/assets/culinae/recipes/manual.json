@@ -1,0 +1,22 @@
+{
+  "type": "forge:ore_shapeless",
+  "result": {
+    "item": "culinae:manual"
+  },
+  "ingredients": [
+    [
+      {
+        "item": "culinae:crops",
+        "data": 32767
+      },
+      {
+        "type": "culinae:hacked_wildcard",
+        "item": "culinae:food",
+        "data": 32767
+      }
+    ],
+    {
+      "item": "minecraft:book"
+    }
+  ]
+}

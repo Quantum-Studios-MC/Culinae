@@ -1,0 +1,11 @@
+{
+  "name": "Salt",
+  "icon": "culinae:material:2",
+  "category": "seasonings",
+  "pages": [
+    {
+      "type": "text",
+      "text": ""
+    }
+  ]
+}

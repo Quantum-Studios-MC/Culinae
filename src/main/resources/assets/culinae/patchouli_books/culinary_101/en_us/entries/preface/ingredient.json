@@ -1,0 +1,19 @@
+{
+  "name": "Ingredients Gathering",
+  "sortnum": 2,
+  "icon": "minecraft:wheat_seeds",
+  "flag": "culinae:enable_garden_world_gen",
+  "category": "preface",
+  "pages": [
+    {
+      "type": "text",
+      "flag": "culinae:enable_grass_seeds",
+      "text": "Ingredients gathering is just as important as cooking itself.$(br2)Most crops added by Culinae may be found in the wild with $(em)appropriate climate$(). Crops such as wheat, peanuts, sesame and soybean may drop from breaking vanilla grass.$(br2)A certain ingredients may only be found in $(em)trades with villagers$()."
+    },
+    {
+      "type": "text",
+      "flag": "!culinae:enable_grass_seeds",
+      "text": "Ingredients gathering is just as important as cooking itself.$(br2)Most crops added by Culinae may be found in the wild with $(em)appropriate climate$().$(br2)A certain ingredients may only be found in $(em)trades with villagers$()."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "particle": "minecraft:blocks/stone"
+        }
+    },
+    "variants": {
+        "inventory": { "model": "culinae:mill_inventory" },
+        "facing": {
+            "north": {          },
+            "south": { "y": 180 },
+            "west":  { "y": 270 },
+            "east":  { "y":  90 }
+        },
+        "static": {
+            "true":  { "model": "culinae:mill"     },
+            "false": { "model": "culinae:mill_top" }
+        }
+    }
+}
