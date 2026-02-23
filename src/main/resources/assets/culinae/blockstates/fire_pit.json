@@ -1,0 +1,28 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "culinae:fire_pit.obj",
+    "custom": {
+      "flip-v": true
+    },
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "facing": {
+      "north": { "y": 90  },
+      "south": { "y": 270 },
+      "west" : {          },
+      "east" : { "y": 180 }
+    },
+    "component": {
+      "none"  : { "model": "culinae:fire_pit.obj"             },
+      "wok"   : { "model": "culinae:fire_pit_with_wok.obj"    },
+      "sticks": { "model": "culinae:fire_pit_with_sticks.obj" },
+      "frying_pan": { "model": "culinae:fire_pit_with_frying_pan.obj" }
+    },
+    "fire_pit": [{ "model": "culinae:fire_pit.obj" }],
+    "wok": [{ "model": "culinae:fire_pit_with_wok.obj" }],
+    "bbq_rack": [{ "model": "culinae:fire_pit_with_sticks.obj" }],
+    "frying_pan": [{ "model": "culinae:fire_pit_with_frying_pan.obj" }]
+  }
+}

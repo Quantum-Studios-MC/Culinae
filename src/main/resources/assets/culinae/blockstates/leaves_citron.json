@@ -1,0 +1,14 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "culinae:leaves_citron"
+  },
+  "variants": {
+    "age": {
+      "0": {},
+      "1": {},
+      "2": { "submodel": "culinae:flowers", "textures": { "0": "culinae:block/flowers_citron" } },
+      "3": { "submodel": "culinae:fruit_sm" }
+    }
+  }
+}

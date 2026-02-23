@@ -1,0 +1,10 @@
+{
+  "ingredients": {
+    "hacked_wildcard": "quantumstudios.culinae.crafting.WildcardIngredient$Factory"
+  },
+  "recipes": {
+    "dump_food_container": "quantumstudios.culinae.crafting.RecipeFoodEmpty$Factory",
+    "chopping_board": "quantumstudios.culinae.crafting.RecipeChoppingBoard$Factory",
+    "spice_bottle_fill": "quantumstudios.culinae.crafting.RecipeSpiceBottleFilling$Factory"
+  }
+}

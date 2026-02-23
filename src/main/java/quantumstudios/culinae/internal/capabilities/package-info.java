@@ -1,0 +1,4 @@
+@ParametersAreNonnullByDefault
+package quantumstudios.culinae.internal.capabilities;
+
+import javax.annotation.ParametersAreNonnullByDefault;

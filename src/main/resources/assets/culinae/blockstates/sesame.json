@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": { "model": "culinae:sesame_stage0" },
+    "age=1": { "model": "culinae:sesame_stage0" },
+    "age=2": { "model": "culinae:sesame_stage1" },
+    "age=3": { "model": "culinae:sesame_stage1" },
+    "age=4": { "model": "culinae:sesame_stage2" },
+    "age=5": { "model": "culinae:sesame_stage2" },
+    "age=6": { "model": "culinae:sesame_stage2" },
+    "age=7": { "model": "culinae:sesame_stage3" }
+  }
+}

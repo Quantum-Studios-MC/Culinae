@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "culinae:item/gelo_base",
+        "layer1": "culinae:item/gelo_overlay"
+    }
+}

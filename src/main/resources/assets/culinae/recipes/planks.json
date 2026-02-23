@@ -1,0 +1,15 @@
+{
+  "type": "forge:ore_shaped",
+  "result": {
+    "item": "culinae:planks",
+    "count": 4
+  },
+  "pattern": [
+    "*"
+  ],
+  "key": {
+    "*": {
+      "item": "culinae:log"
+    }
+  }
+}

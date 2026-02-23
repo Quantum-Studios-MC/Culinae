@@ -1,0 +1,16 @@
+{
+  "type": "kiwi:no_containers",
+  "result": {
+    "item": "culinae:spice_bottle",
+    "data": 0
+  },
+  "pattern": [
+    "*"
+  ],
+  "key": {
+    "*": {
+      "item": "culinae:spice_bottle",
+      "data": 32767
+    }
+  }
+}

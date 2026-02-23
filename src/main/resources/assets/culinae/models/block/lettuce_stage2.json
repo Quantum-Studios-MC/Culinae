@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "culinae:block/lettuce_stage_2"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "culinae:block/cross_crop",
+    "textures": {
+        "crop": "culinae:block/onion_stage_3"
+    }
+}

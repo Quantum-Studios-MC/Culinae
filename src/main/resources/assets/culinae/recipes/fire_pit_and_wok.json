@@ -1,0 +1,20 @@
+{
+  "type": "kiwi:no_containers",
+  "result": {
+    "item": "culinae:fire_pit",
+    "data": 1
+  },
+  "pattern": [
+    "w",
+    "f"
+  ],
+  "key": {
+    "w": {
+      "item" : "culinae:wok"
+    },
+    "f": {
+      "item": "culinae:fire_pit",
+      "data": 0
+    }
+  }
+}

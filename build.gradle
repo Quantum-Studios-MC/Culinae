@@ -26,8 +26,8 @@ apply plugin: 'idea'
 apply plugin: 'net.minecraftforge.gradle.forge'
 
 version = "${version_major}.${version_minor}.${version_patch}"
-group = "snownee.cuisine"
-archivesBaseName = "Cuisine"
+group = "quantumstudios.culinae"
+archivesBaseName = "Culinae"
 
 if (System.getenv().BUILD_NUMBER != null) {
     version += "-build${System.getenv().BUILD_NUMBER}"
@@ -116,7 +116,7 @@ jar {
     exclude "**/*.e"
     exclude "**/*.txt"
     manifest {
-        attributes 'FMLAT': 'cuisine_at.cfg'
+        attributes 'FMLAT': 'culinae_at.cfg'
         attributes 'Maven-Artifact': "${project.group}:${project.archivesBaseName}:${project.version}"
         attributes 'Timestamp': System.currentTimeMillis()
     }

@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "variants": {
+    "type": {
+      "a_0": { "model": "culinae:bamboo_shoot" },
+      "a_1": { "model": "culinae:bamboo_shoot" },
+      "a_2": { "model": "culinae:bamboo" },
+      "a_3": { "model": "culinae:bamboo" },
+      "a_4": { "model": "culinae:bamboo" },
+      "a_5": { "model": "culinae:bamboo" },
+      "a_6": { "model": "culinae:bamboo" },
+      "b_s": { "model": "culinae:bamboo_branch", "y": 90 },
+      "b_w": { "model": "culinae:bamboo_branch", "y": 180 },
+      "b_n": { "model": "culinae:bamboo_branch", "y": 270 },
+      "b_e": { "model": "culinae:bamboo_branch" }
+    }
+  }
+}

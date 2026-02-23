@@ -1,0 +1,7 @@
+{
+    "parent": "culinae:block/double_crop",
+    "textures": {
+        "lower": "culinae:block/cucumber_lower_0",
+        "upper": "culinae:block/cucumber_upper_0"
+    }
+}

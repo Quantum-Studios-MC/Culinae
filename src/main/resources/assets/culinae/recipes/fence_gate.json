@@ -1,0 +1,19 @@
+{
+  "type": "forge:ore_shaped",
+  "result": {
+    "item": "culinae:fence_gate"
+  },
+  "pattern": [
+    "|*|",
+    "|*|"
+  ],
+  "key": {
+    "*": {
+      "item": "culinae:planks"
+    },
+    "|": {
+      "ore" : "stickWood",
+      "type": "forge:ore_dict"
+    }
+  }
+}

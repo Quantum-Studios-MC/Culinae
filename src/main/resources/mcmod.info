@@ -1,7 +1,7 @@
 [
 {
-  "modid": "cuisine",
-  "name": "Cuisine",
+  "modid": "culinae",
+  "name": "Culinae",
   "description": "Customize your food",
   "version": "${version}",
   "url": "",

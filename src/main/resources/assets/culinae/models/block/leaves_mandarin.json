@@ -1,0 +1,6 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "culinae:block/leaves_mandarin"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "culinae:block/drinkro",
+	"textures": {
+		"1": "culinae:block/drinkro_special_upper",
+		"2": "culinae:block/drinkro_special_full",
+		"3": "culinae:block/drinkro_special_door",
+		"particle": "culinae:block/drinkro_special_upper"
+	}
+}

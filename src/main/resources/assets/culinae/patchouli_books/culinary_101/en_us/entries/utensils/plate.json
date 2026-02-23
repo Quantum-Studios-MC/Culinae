@@ -1,0 +1,23 @@
+{
+  "name": "Plate",
+  "icon": "culinae:placed_dish",
+  "category": "utensils",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Yes, you have to use a plate to hold your food or smoothie. You cannot eat food with your bare hand in Culinae mod.$(br)You can place the plate down by right clicking while sneaking. You can right-click the placed plate to eat things inside it."
+    },
+    {
+      "type": "crafting",
+      "flag": "!mod:ceramics",
+      "recipe": "culinae:plate"
+    },
+    {
+      "type": "crafting",
+      "flag": "mod:ceramics",
+      "recipe": "culinae:plate",
+      "recipe2": "culinae:compatibilities/ceramic_plate"
+    }
+  ]
+}

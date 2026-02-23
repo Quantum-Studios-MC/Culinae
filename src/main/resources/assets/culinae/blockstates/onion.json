@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": { "model": "culinae:onion_stage0" },
+    "age=1": { "model": "culinae:onion_stage0" },
+    "age=2": { "model": "culinae:onion_stage1" },
+    "age=3": { "model": "culinae:onion_stage1" },
+    "age=4": { "model": "culinae:onion_stage2" },
+    "age=5": { "model": "culinae:onion_stage2" },
+    "age=6": { "model": "culinae:onion_stage2" },
+    "age=7": { "model": "culinae:onion_stage3" }
+  }
+}
