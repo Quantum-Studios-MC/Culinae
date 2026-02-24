@@ -10,10 +10,6 @@ import snownee.kiwi.KiwiModule;
 
 @KiwiModule(modid = "culinae", name = "groovyscript", dependency = "groovyscript")
 
-/**
- * GroovyScript plugin for the Culinae mod.
- * Implements GroovyPlugin to provide a custom GroovyPropertyContainer for scripting recipes and mod behaviors.
- */
 public class GSPlugin implements IModule, GroovyPlugin {
 
     @Override
