@@ -26,11 +26,11 @@ public class Mill extends ProcessingRegistry<Milling> {
             .forEach(this::remove);
     }
 
+    @RecipeBuilderDescription(example = @Example(".input(item('minecraft:wheat')).output(item('culinae:flour'))"))
     public RecipeBuilder recipeBuilder() {
         return new RecipeBuilder();
     }
 
-    @RecipeBuilderDescription(example = @Example(".input(item('minecraft:wheat')).output(item('culinae:flour'))"))
     @Property(property = "input", comp = @Comp(eq = 1))
     @Property(property = "output", comp = @Comp(eq = 1))
     @Property(property = "name")
@@ -45,6 +45,14 @@ public class Mill extends ProcessingRegistry<Milling> {
         }
 
         public String getRecipeNamePrefix() { return "mill"; }
+
+        public String validateName() {
+            if (super.name == null || super.name.trim().isEmpty()) {
+                throw new IllegalArgumentException("Recipe name must be set and not empty");
+            }
+            // Additional validation if needed (e.g., no special chars)
+            return super.name;
+        }
 
         @Override
         @RecipeBuilderRegistrationMethod

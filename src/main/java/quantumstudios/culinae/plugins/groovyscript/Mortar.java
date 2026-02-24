@@ -24,20 +24,19 @@ public class Mortar extends ProcessingRegistry<Grinding> {
     @MethodDescription(description = "groovyscript.wiki.culinae.mortar.removeByInput", type = MethodDescription.Type.REMOVAL)
     public void removeByInput(IIngredient input) {
         getRegistry().preview().stream()
-            .filter(r -> input.test(r.getInput().getExample()))
+            .filter(r -> !r.getInputs().isEmpty() && input.test(r.getInputs().get(0).getExample()))
             .forEach(this::remove);
     }
 
+    @RecipeBuilderDescription(example = @Example(".input(item('minecraft:wheat')).output(item('culinae:flour'))"))
     public RecipeBuilder recipeBuilder() {
         return new RecipeBuilder();
     }
 
-    @RecipeBuilderDescription(example = @Example(".input(item('minecraft:wheat')).output(item('culinae:flour'))"))
     @Property(property = "input", comp = @Comp(eq = 1))
     @Property(property = "output", comp = @Comp(eq = 1))
     @Property(property = "name")
     public static class RecipeBuilder extends AbstractRecipeBuilder<Grinding> {
-
         @Override
         public String getErrorMsg() { return "Error adding Culinae Mortar recipe"; }
 
@@ -47,6 +46,14 @@ public class Mortar extends ProcessingRegistry<Grinding> {
         }
 
         public String getRecipeNamePrefix() { return "mortar"; }
+
+        public String validateName() {
+            if (super.name == null || super.name.trim().isEmpty()) {
+                throw new IllegalArgumentException("Recipe name must be set and not empty");
+            }
+            // Additional validation if needed (e.g., no special chars)
+            return super.name;
+        }
 
         @Override
         @RecipeBuilderRegistrationMethod

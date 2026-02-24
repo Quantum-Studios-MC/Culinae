@@ -27,11 +27,11 @@ public class AxeChopping extends ProcessingRegistry<Chopping> {
             .forEach(this::remove);
     }
 
+    @RecipeBuilderDescription(example = @Example(".input(item('minecraft:log')).output(item('minecraft:planks'))"))
     public RecipeBuilder recipeBuilder() {
         return new RecipeBuilder();
     }
 
-    @RecipeBuilderDescription(example = @Example(".input(item('minecraft:log')).output(item('minecraft:planks'))"))
     @Property(property = "input", comp = @Comp(eq = 1))
     @Property(property = "output", comp = @Comp(eq = 1))
     @Property(property = "name")
@@ -46,6 +46,14 @@ public class AxeChopping extends ProcessingRegistry<Chopping> {
         }
 
         public String getRecipeNamePrefix() { return "axe_chopping"; }
+
+        public String validateName() {
+            if (super.name == null || super.name.trim().isEmpty()) {
+                throw new IllegalArgumentException("Recipe name must be set and not empty");
+            }
+            // Additional validation if needed (e.g., no special chars)
+            return super.name;
+        }
 
         @Override
         @RecipeBuilderRegistrationMethod
