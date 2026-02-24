@@ -41,6 +41,14 @@ dependencies {
 
     devOnlyNonPublishable rfg.deobf(project.files("libs/Kiwi-1.12.2-0.5.1-deobf.jar"))
 
-    devOnlyNonPublishable 'CraftTweaker2:CraftTweaker2-MC1120-Main:1.12-4.1.20.618'
+    devOnlyNonPublishable rfg.deobf(project.files("libs/Baubles-1.12-1.5.2.jar"))
+
+    devOnlyNonPublishable rfg.deobf(project.files("libs/Carry+On+MC1.12.2+v1.10.jar"))
+
+    devOnlyNonPublishable rfg.deobf(project.files("libs/Nutrition-1.12.2-3.5.0.jar"))
+
+    devOnlyNonPublishable rfg.deobf(project.files("libs/ToughAsNails-1.12.2-3.1.0.129-api.jar"))
+
+    compileOnly "CraftTweaker2:CraftTweaker2-MC1120-Main:1.12-4.1.20.618"
 
 }
