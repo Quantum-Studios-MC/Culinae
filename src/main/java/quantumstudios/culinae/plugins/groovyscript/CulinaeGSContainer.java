@@ -8,9 +8,4 @@ public class CulinaeGSContainer extends GroovyPropertyContainer {
     public final Mortar mortar = new Mortar();
     public final Mill mill = new Mill();
 
-    public CulinaeGSContainer() {
-        addProperty(axeChopping);
-        addProperty(mortar);
-        addProperty(mill);
-    }
 }
